@@ -40,7 +40,8 @@ def admin_only(func):
 
 @bot.message_handler(commands=['start', 'help'])
 def send_welcome(message):
-    help_text = "Welcome to the Telegram Post Sender Bot!\n\n" \
+    help_text = "Welcome to the Telegram Post Sender Bot!
+Created by @beingpankajkr\n\n" \
                 "Available commands:\n" \
                 "/send - Send a message to the specified channel/group (Admins only)\n" \
                 "/broadcast - Broadcast a message to all configured channels/groups (Admins only)\n" \
